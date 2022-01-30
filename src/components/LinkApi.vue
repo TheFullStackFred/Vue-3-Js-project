@@ -12,7 +12,7 @@ export default {
 <template>
   <div class="info">
     <span>
-      This is an Single-page application that fetch data from
+      This is a Single-page application that fetch data from
       <b @click="goToApi">https://punkapi.com/</b> and shows some interesting
       information about BrewDog’s DIY Dog beers.
     </span>
