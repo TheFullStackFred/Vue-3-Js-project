@@ -13,6 +13,7 @@ export default {
       this.isDisabled = !this.isDisabled
       this.greeting = `Oh! ${this.favoriteBeer}, so you're that kind of person😂`
       this.$emit('handle-click')
+      this.favoriteBeer = ''
     }
   }
 }
@@ -56,7 +57,7 @@ $color2: #ffac4a;
 
 .btn {
   border-radius: 2rem;
-  background-color: #ffe9c9;
+  background-color: $color;
   color: #030e12;
   margin: auto;
   width: 77px;
