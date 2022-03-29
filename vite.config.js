@@ -3,6 +3,7 @@ import { VitePWA } from 'vite-plugin-pwa'
 import vue from '@vitejs/plugin-vue'
 
 export default defineConfig({
+  base: process.env.NODE_ENV === 'production' ? '/undermapp/' : '/',
   plugins: [
     VitePWA({
       manifest: {
